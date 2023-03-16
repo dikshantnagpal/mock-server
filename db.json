@@ -2,21 +2,22 @@
     "users": [
         {
             "id": 1,
-            "name": "Gertrudis Tatterton",
-            "age": 18,
-            "email": "gtatterton0@ehow.com"
-        },
+            "username": "Gertrudis Tatterton",
+            "email": "gtatterton0@ehow.com",
+            "password":"123"
+        }
+    ],
+    "hotels":[
         {
-            "id": 2,
-            "name": "Gail Newbatt",
-            "age": 53,
-            "email": "gnewbatt1@un.org"
-        },
-        {
-            "id": 3,
-            "name": "Walliw Wilstead",
-            "age": 49,
-            "email": "wwilstead2@tripadvisor.com"
+            "id":1,
+            "category": "Family",
+            "image_url": "https://www.acaciahotelsmanila.com/wp-content/uploads/2020/09/room-deluxe_70df34c103b85ce7b2b5ff918ab8cf72.jpg",
+            "type_of_room": "AC",
+            "bed_type": "Double",
+            "no_of_persons": "2",
+            "capacity": "3",
+		    "cost": "4000",
+            "booked": false
         }
     ]
 }
